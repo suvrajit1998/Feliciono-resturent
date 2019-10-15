@@ -1,0 +1,50 @@
+.chef-box {
+  width: 85%;
+  height: 60vh;
+  margin: 0 auto;
+  //background: pink;
+}
+.row4 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: 60vh;
+  column-gap: 3rem;
+
+  .col-1-of-4 {
+    //background: pink;
+  }
+}
+
+.chef {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  &-img {
+    height: 60%;
+    margin-bottom: 2rem;
+
+    img {
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      border-radius: 5px;
+    }
+  }
+  &-details {
+    height: 13vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .socail-app {
+      width: 50%;
+      display: flex;
+      justify-content: space-around;
+
+      &-logo {
+        font-size: 2rem;
+        color: $color-golden;
+      }
+    }
+  }
+}

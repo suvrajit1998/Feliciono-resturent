@@ -1,0 +1,57 @@
+.header {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(49, 49, 49, 0.788), rgba(27, 27, 27, 0.575)),
+    url(/image/bg_1.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+
+  &-text-box {
+    width: 100%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+.hr-2 {
+  width: 95%;
+  position: absolute;
+  bottom: 20rem;
+  left: 50%;
+  border-bottom: 0.1rem solid $color-gray;
+  transform: translate(-50%, -50%);
+}
+.row {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  column-gap: 2rem;
+  grid-template-rows: 200px;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 4%;
+  margin: 0 auto;
+  //   left: 50%;
+  //   transform: translate(-50%, -1%);
+}
+.col-1-0f-4 {
+  padding: 1rem;
+}
+.breackfast {
+  width: 100%;
+  height: 45%;
+  text-align: center;
+  margin: 1.5rem 0;
+
+  &-img {
+    height: 100%;
+    border-radius: 50%;
+  }
+}
+.nameofbfast {
+  text-align: center;
+  color: $color-white;
+}

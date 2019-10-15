@@ -1,0 +1,41 @@
+.main_box {
+  width: 80%;
+  height: 90vh;
+  margin: 0 auto;
+}
+.row3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: 30vh;
+  //column-gap: 2rem;
+
+  //   &:not(:last-child) {
+  //     margin-bottom: 2rem;
+  //   }
+}
+.col-1-of-4 {
+  background: $color-white;
+  overflow: hidden;
+
+  .menu-img {
+    img {
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+    }
+  }
+  .menu-detailes {
+    padding: 1.5rem;
+
+    .inline {
+      display: flex;
+      justify-content: space-between;
+
+      .menu-price {
+        font-size: 2rem;
+        font-weight: 700;
+        color: $color-golden;
+      }
+    }
+  }
+}

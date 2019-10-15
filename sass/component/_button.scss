@@ -1,0 +1,18 @@
+.btn {
+  &:link,
+  &:visited {
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    background: $color-golden;
+    border: 1px solid $color-golden;
+    border-radius: 3px;
+    color: $color-white;
+    transition: all 650ms;
+  }
+  &-outline:hover {
+    color: $color-golden;
+    background: $color-white;
+  }
+}

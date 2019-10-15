@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=Bitter|Lobster|Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Great+Vibes&display=swap");
+.heading-primary {
+  text-align: center;
+  &-main {
+    display: block;
+    font-size: 10rem;
+    font-weight: 100;
+    color: $color-golden;
+    font-family: "Lobster", cursive;
+    letter-spacing: 2rem;
+  }
+  &-sub {
+    text-transform: uppercase;
+    width: 100%;
+    display: block;
+    color: $color-white;
+    font-size: 8rem;
+    font-weight: 900;
+    letter-spacing: 0.2rem;
+    font-family: "Roboto", sans-serif;
+  }
+}
+
+.heading-secondary {
+  position: relative;
+  &-main {
+    display: block;
+    font-size: 10rem;
+    font-family: "Great Vibes", cursive;
+    letter-spacing: 1rem;
+    color: $color-golden;
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  &-sub {
+    display: block;
+    font-size: 6rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.5rem;
+    color: $color-black;
+  }
+}
+.heading-tartiary {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+  color: $color-black;
+  font-family: "Roboto", sans-serif;
+}
+.heading-tartiary-white {
+  font-size: 1.7rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  color: $color-white;
+  font-family: "Roboto", sans-serif;
+}
+.paragraph {
+  font-size: 1.6rem;
+  color: $color-gray-light;
+  font-weight: 800;
+}
+
+.paragraph-2 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: $color-gray;
+  line-height: 4rem;
+  text-align: left;
+  padding: 1rem 7rem 1rem 0;
+}
+.paragraph-3 {
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 2rem;
+  color: $color-gray;
+  line-height: 3.5rem;
+}
+.bold {
+  color: $color-black;
+  font-weight: 800;
+}
+.heading-about {
+  font-size: 6rem;
+
+  &-main {
+    color: $color-golden;
+    font-family: "Great Vibes", cursive;
+    font-size: 13rem;
+    font-weight: 400;
+    display: block;
+    position: absolute;
+    top: -7rem;
+    letter-spacing: 1rem;
+    z-index: -1;
+  }
+
+  &-sub {
+    font-size: 7rem;
+    display: block;
+    font-weight: 400;
+    color: $color-black;
+    font-family: "Roboto", sans-serif;
+  }
+  &-sub-re {
+    font-size: 6rem;
+    display: block;
+    font-family: "Roboto", sans-serif;
+    color: $color-black;
+    font-weight: 400;
+  }
+}

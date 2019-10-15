@@ -1,0 +1,20 @@
+.row2 {
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  grid-template-rows: 300px;
+  column-gap: 2rem;
+  justify-content: center;
+}
+// .col-1-of-3 {
+//   position: relative;
+// }
+
+.service-box {
+  text-align: center;
+}
+.service-logo-icon {
+  font-size: 6rem;
+  background: $color-golden;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

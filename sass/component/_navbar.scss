@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Bitter|Roboto&display=swap");
+.navbar {
+  width: 90%;
+  background: rgba(0, 0, 0, 0.295);
+  padding: 1rem 2rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 2rem;
+  left: 6rem;
+  z-index: 100;
+
+  &-logo {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: $color-white;
+    font-family: "Bitter", serif;
+  }
+
+  &-lists {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 45%;
+  }
+  &-item {
+    display: inline-block;
+    &:hover {
+      text-shadow: 0 1rem 2rem rgba($color-white, 0.15);
+      transform: translateY(-3px);
+    }
+
+    &:last-child {
+      padding: 1.5rem 2rem;
+      background: $color-golden;
+      border-radius: 5px;
+    }
+  }
+  &-link {
+    &:link,
+    &:visited {
+      display: inline-block;
+      text-decoration: none;
+      font-size: 1.5rem;
+      color: $color-white;
+      font-family: "Roboto", sans-serif;
+      &:hover &:not(:last-child) {
+        color: $color-golden;
+      }
+
+      &:active {
+        transform: translateY(0);
+        color: $color-golden;
+        text-shadow: 0 0.5rem 1rem rgba($color-white, 0.15);
+      }
+    }
+  }
+}
+
+.hr-1 {
+  width: 95%;
+  position: absolute;
+  top: 10rem;
+  left: 50%;
+  //height: 1px;
+  border-bottom: 0.1rem solid $color-gray;
+  transform: translate(-50%, -50%);
+}
